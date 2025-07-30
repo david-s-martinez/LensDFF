@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="LensDFF: Language-enhanced Sparse Feature Distillation for Efficient Few-Shot Dexterous Manipulation">
+  <meta name="keywords" content="LensDFF: Language-enhanced Sparse Feature Distillation for Efficient Few-Shot Dexterous Manipulation">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LensDFF: Language-enhanced Sparse Feature Distillation for Efficient Few-Shot Dexterous Manipulation</title>
+  </script>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-72PW1FZDE4"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-72PW1FZDE4');
+  </script>
+</head>
+<body>
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <img src="header.png" alt="Research Institution Logos" style="max-width: 100%; height: auto; margin-bottom: 20px;">
+          <h1 class="title is-1 publication-title">LensDFF: Language-enhanced Sparse Feature Distillation for Efficient Few-Shot Dexterous Manipulation</h1>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <a href="https://www.ce.cit.tum.de/air/people/qian-feng-msc/">Qian Feng</a><sup>1,2*</sup>,</span>
+            <span class="author-block">
+              <a href="https://www.linkedin.com/in/david-sebastian-martinez-/">David S. Martinez Lema</a><sup>1,2*</sup>,</span>
+            <span class="author-block">
+              <a href="https://jianxiangfeng.github.io/">Jianxiang Feng</a><sup>1,2</span>
+            </span>
+            <span class="author-block">
+              <a href="https://www.agile-robots.com/en/about-us/our-story">Zhaopeng Chen</a><sup>1</span>
+            </span>
+            <span class="author-block">
+              <a href="https://www.ce.cit.tum.de/air/people/prof-dr-ing-habil-alois-knoll/"> Alois Knoll</a><sup>2</span>
+            </span>
+          </div>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block"><sup>1</sup>Agile Robots SE, Germany</span>
+            <br>
+            <span class="author-block"><sup>2</sup>Technical University of Munich, Germany</span>
+            <br>
+            <span class="author-block"><sup>*</sup>Equal Contribution</span>
+
+          </div>
+
+           <div class="is-size-5">
+              <span class="author-block">  <b>Accepted by IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) 2025</b></span>
+          </div>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <!-- PDF Link. -->
+              <span class="link-block">
+                <a href="https://www.arxiv.org/abs/2407.17348"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+              <!-- Video Link. -->
+              <span class="link-block">
+                <a href="https://youtu.be/egQaemeAy5k"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-youtube"></i>
+                  </span>
+                  <span>Video</span>
+                </a>
+              </span>
+
+              <!-- Code Link. -->
+              <span class="link-block">
+                <a href="https://github.com/david-s-martinez/Dex-GAN-Grasp"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code/Data</span>
+                  </a>
+              </span>
+
+          </div>
+        </div>
+      </div>
+    </div>
+</section>
+
+<section class="section_video">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Video</h2>
+        <div class="publication-video">
+          <!-- YouTube iframe for the video -->
+          <iframe id="teaser" width="100%" height="450" src="https://www.youtube.com/embed/egQaemeAy5k"
+                  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                  allowfullscreen>
+          </iframe>
+        </div>
+        <h2 class="subtitle has-text-centered">
+          We propose Language-ENhanced Sparse Distilled Feature Field (LensDFF), which efficiently distills view-consistent 2D features onto 3D points using our novel language-enhanced feature fusion strategy, thereby enabling single-view few-shot generalization. 
+        </h2>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Learning dexterous manipulation from few-shot demonstrations is a significant yet challenging problem for advanced, human-like robotic systems.
+            Dense distilled feature fields have addressed this challenge by distilling rich semantic features from 2D visual foundation models into the 3D domain.
+            However, their reliance on neural rendering models such as Neural Radiance Fields (NeRF) or Gaussian Splatting results in high computational costs.
+            In contrast, previous approaches based on sparse feature fields either suffer from inefficiencies due to multi-view dependencies and extensive training or lack sufficient grasp dexterity.
+            To overcome these limitations, we propose Language-ENhanced Sparse Distilled Feature Field (LensDFF), which efficiently distills view-consistent 2D features onto 3D points using our novel language-enhanced feature fusion strategy, thereby enabling single-view few-shot generalization.
+            Based on LensDFF, we further introduce a few-shot dexterous manipulation framework that integrates grasp primitives into the demonstrations to generate stable and highly dexterous grasps.
+            Moreover, we present a real2sim grasp evaluation pipeline for efficient grasp assessment and hyperparameter tuning.
+            Through extensive simulation experiments based on the real2sim pipeline and real-world experiments, our approach achieves competitive grasping performance, outperforming state-of-the-art approaches.
+          </p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+<!-- <section class="section_video"></section>
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Model</h2>
+        <div class="publication-video">
+          <video id="dexgan" autoplay controls muted loop height="100%">
+            <source src="dexgan.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <h2 class="subtitle has-text-centered">
+          DexGANGrasp Model Architecture
+        </h2>
+      </div>
+    </div>
+  </div>
+</section> -->
+
+<!-- <section class="section_video"></section>
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <div class="publication-video">
+          <video id="dexprompt" autoplay controls muted loop height="100%">
+            <source src="dexprompt.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <h2 class="subtitle has-text-centered">
+          DexAfford-Prompt Pipeline 
+        </h2>
+      </div>
+    </div>
+  </div>
+</section> -->
+
+<!-- <section class="section_video"></section>
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Results</h2>
+        <div class="publication-video">
+          <video id="sim" autoplay controls muted loop height="100%">
+            <source src="sim.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <h2 class="subtitle has-text-centered">
+          Grasping in simulation with the Robotiq-3F gripper
+        </h2>
+      </div>
+    </div>
+  </div>
+</section> -->
+
+<!-- <section class="section_video"></section>
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <div class="publication-video">
+          <video id="sim" autoplay controls muted loop height="100%">
+            <source src="grasp.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <h2 class="subtitle has-text-centered">
+          Grasping with DexGANGrasp
+        </h2>
+      </div>
+    </div>
+  </div>
+</section> -->
+
+<!-- <section class="section_video"></section>
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <div class="publication-video">
+          <video id="sim" autoplay controls muted loop height="100%">
+            <source src="tog.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <h2 class="subtitle has-text-centered">
+          Task Oriented Grasping with DexAfford-Prompt
+        </h2>
+      </div>
+    </div>
+  </div>
+</section> -->
+
+<section class="section"></section>
+  <div class="container is-max-desktop">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Summary</h2>
+        <div class="content has-text-justified">
+          <p>
+            Learning dexterous manipulation from few-shot demonstrations is a significant yet challenging problem for advanced, human-like robotic systems.
+            Dense distilled feature fields have addressed this challenge by distilling rich semantic features from 2D visual foundation models into the 3D domain.
+            However, their reliance on neural rendering models such as Neural Radiance Fields (NeRF) or Gaussian Splatting results in high computational costs.
+            In contrast, previous approaches based on sparse feature fields either suffer from inefficiencies due to multi-view dependencies and extensive training or lack sufficient grasp dexterity.
+            To overcome these limitations, we propose Language-ENhanced Sparse Distilled Feature Field (LensDFF), which efficiently distills view-consistent 2D features onto 3D points using our novel language-enhanced feature fusion strategy, thereby enabling single-view few-shot generalization.
+            Based on LensDFF, we further introduce a few-shot dexterous manipulation framework that integrates grasp primitives into the demonstrations to generate stable and highly dexterous grasps.
+            Moreover, we present a real2sim grasp evaluation pipeline for efficient grasp assessment and hyperparameter tuning.
+            Through extensive simulation experiments based on the real2sim pipeline and real-world experiments, our approach achieves competitive grasping performance, outperforming state-of-the-art approaches.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>@misc{feng2025lensdfflanguageenhancedsparsefeature,
+      title={LensDFF: Language-enhanced Sparse Feature Distillation for Efficient Few-Shot Dexterous Manipulation}, 
+      author={Qian Feng and David S. Martinez Lema and Jianxiang Feng and Zhaopeng Chen and Alois Knoll},
+      year={2025},
+      eprint={2503.03890},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO},
+      url={https://arxiv.org/abs/2503.03890}, 
+}
+  
+</code></pre>
+  </div>
+</section>
+
+
+</body>
+</html>
