@@ -120,7 +120,7 @@
         <h2 class="title is-3">Video</h2>
         <div class="publication-video">
           <!-- YouTube iframe for the video -->
-          <iframe id="teaser" width="100%" height="450" src="https://www.youtube.com/embed/egQaemeAy5k"
+          <iframe id="teaser" width="100%" height="450" src="https://www.youtube.com/embed/YeNj-osR0vg?si=WQWjHSlumS8xj6RJ"
                   frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
                   allowfullscreen>
           </iframe>
@@ -256,16 +256,14 @@
       <div class="column is-four-fifths">
         <h2 class="title is-3">Summary</h2>
         <div class="content has-text-justified">
-          <p>
-            Learning dexterous manipulation from few-shot demonstrations is a significant yet challenging problem for advanced, human-like robotic systems.
-            Dense distilled feature fields have addressed this challenge by distilling rich semantic features from 2D visual foundation models into the 3D domain.
-            However, their reliance on neural rendering models such as Neural Radiance Fields (NeRF) or Gaussian Splatting results in high computational costs.
-            In contrast, previous approaches based on sparse feature fields either suffer from inefficiencies due to multi-view dependencies and extensive training or lack sufficient grasp dexterity.
-            To overcome these limitations, we propose Language-ENhanced Sparse Distilled Feature Field (LensDFF), which efficiently distills view-consistent 2D features onto 3D points using our novel language-enhanced feature fusion strategy, thereby enabling single-view few-shot generalization.
-            Based on LensDFF, we further introduce a few-shot dexterous manipulation framework that integrates grasp primitives into the demonstrations to generate stable and highly dexterous grasps.
-            Moreover, we present a real2sim grasp evaluation pipeline for efficient grasp assessment and hyperparameter tuning.
-            Through extensive simulation experiments based on the real2sim pipeline and real-world experiments, our approach achieves competitive grasping performance, outperforming state-of-the-art approaches.
-          </p>
+          <p>- LensDFF is a lightweight framework for few-shot dexterous robotic manipulation.</p>
+          <p>- It combines sparse 3D feature representations with language-guided semantic cues.</p>
+          <p>- Unlike dense methods, it works from a single view, avoiding costly multi-view rendering.</p>
+          <p>- Utilizes vision-language models to distill rich semantic features efficiently.</p>
+          <p>- Integrates grasp motion primitives to improve grasp stability and dexterity.</p>
+          <p>- Includes a real-to-simulation (real2sim) pipeline for scalable tuning and evaluation.</p>
+          <p>- Demonstrates strong performance in both simulation and real-world tests.</p>
+          <p>- Achieves competitive results with greater computational efficiency, enabling practical low-data robotic learning.</p>          
         </div>
       </div>
     </div>
